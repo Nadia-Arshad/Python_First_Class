@@ -1,0 +1,15 @@
+# Creating a code for Task List:
+
+data = {}
+
+# Now for two inputs of tasks and time, creating variables with input functions
+
+while True:
+  task = input("Put your to-do task or press quit to complete the task list.")
+if task.lower() == "quit"
+  break
+
+  time_of_the_task = ("Mark the time for the task.")
+  data[task] = time_of_the_task
+
+print("To-Do List:", data)
